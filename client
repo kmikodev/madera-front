@@ -1,0 +1,234 @@
+.
+├── bun.lock
+├── client
+├── eslint.config.js
+├── index.html
+├── output.txt
+├── package.json
+├── postcss.config.js
+├── public
+├── src
+│   ├── App.tsx
+│   ├── components
+│   │   ├── auth
+│   │   │   └── ProtectedRoute.tsx
+│   │   ├── crud
+│   │   │   ├── forms
+│   │   │   │   ├── AccountBudgetForm.tsx
+│   │   │   │   ├── AccountingAccountForm.tsx
+│   │   │   │   ├── AccountingEntryForm.tsx
+│   │   │   │   ├── AccountingEntryLineForm.tsx
+│   │   │   │   ├── ApiKeyForm.tsx
+│   │   │   │   ├── AuditLogForm.tsx
+│   │   │   │   ├── CustomerAddressForm.tsx
+│   │   │   │   ├── CustomerContactForm.tsx
+│   │   │   │   ├── CustomerForm.tsx
+│   │   │   │   ├── EmployeeForm.tsx
+│   │   │   │   ├── FiscalYearForm.tsx
+│   │   │   │   ├── InvoiceForm.tsx
+│   │   │   │   ├── MaterialCategoryForm.tsx
+│   │   │   │   ├── MaterialForm.tsx
+│   │   │   │   ├── MaterialLocationForm.tsx
+│   │   │   │   ├── MaterialSupplierForm.tsx
+│   │   │   │   ├── PasswordHistoryForm.tsx
+│   │   │   │   ├── PaymentForm.tsx
+│   │   │   │   ├── PermissionForm.tsx
+│   │   │   │   ├── ProductAttributeForm.tsx
+│   │   │   │   ├── ProductCategoryForm.tsx
+│   │   │   │   ├── ProductForm.tsx
+│   │   │   │   ├── ProductImageForm.tsx
+│   │   │   │   ├── ProductionForm.tsx
+│   │   │   │   ├── ProductionInputForm.tsx
+│   │   │   │   ├── ProductionOutputForm.tsx
+│   │   │   │   ├── ProductLocationForm.tsx
+│   │   │   │   ├── PurchaseForm.tsx
+│   │   │   │   ├── PurchaseItemForm.tsx
+│   │   │   │   ├── QualityControlForm.tsx
+│   │   │   │   ├── QualityDefectForm.tsx
+│   │   │   │   ├── QuotationForm.tsx
+│   │   │   │   ├── QuotationItemForm.tsx
+│   │   │   │   ├── ReturnOrderForm.tsx
+│   │   │   │   ├── ReturnOrderItemForm.tsx
+│   │   │   │   ├── RoleForm.tsx
+│   │   │   │   ├── SaleForm.tsx
+│   │   │   │   ├── SaleItemForm.tsx
+│   │   │   │   ├── SepaRemittanceForm.tsx
+│   │   │   │   ├── SupplierAddressForm.tsx
+│   │   │   │   ├── SupplierContactForm.tsx
+│   │   │   │   ├── SupplierForm.tsx
+│   │   │   │   ├── UserForm.tsx
+│   │   │   │   ├── WarehouseForm.tsx
+│   │   │   │   └── WarehouseLocationForm.tsx
+│   │   │   └── tables
+│   │   │       ├── AccountBudgetTable.tsx
+│   │   │       ├── AccountingAccountTable.tsx
+│   │   │       ├── AccountingEntryLineTable.tsx
+│   │   │       ├── AccountingEntryTable.tsx
+│   │   │       ├── ApiKeyTable.tsx
+│   │   │       ├── AuditLogTable.tsx
+│   │   │       ├── CustomerAddressTable.tsx
+│   │   │       ├── CustomerContactTable.tsx
+│   │   │       ├── CustomerTable.tsx
+│   │   │       ├── EmployeeTable.tsx
+│   │   │       ├── FiscalYearTable.tsx
+│   │   │       ├── InvoiceTable.tsx
+│   │   │       ├── MaterialCategoryTable.tsx
+│   │   │       ├── MaterialLocationTable.tsx
+│   │   │       ├── MaterialSupplierTable.tsx
+│   │   │       ├── MaterialTable.tsx
+│   │   │       ├── PasswordHistoryTable.tsx
+│   │   │       ├── PaymentTable.tsx
+│   │   │       ├── PermissionTable.tsx
+│   │   │       ├── ProductAttributeTable.tsx
+│   │   │       ├── ProductCategoryTable.tsx
+│   │   │       ├── ProductImageTable.tsx
+│   │   │       ├── ProductionInputTable.tsx
+│   │   │       ├── ProductionOutputTable.tsx
+│   │   │       ├── ProductionTable.tsx
+│   │   │       ├── ProductLocationTable.tsx
+│   │   │       ├── ProductTable.tsx
+│   │   │       ├── PurchaseItemTable.tsx
+│   │   │       ├── PurchaseTable.tsx
+│   │   │       ├── QualityControlTable.tsx
+│   │   │       ├── QualityDefectTable.tsx
+│   │   │       ├── QuotationItemTable.tsx
+│   │   │       ├── QuotationTable.tsx
+│   │   │       ├── ReturnOrderItemTable.tsx
+│   │   │       ├── ReturnOrderTable.tsx
+│   │   │       ├── RoleTable.tsx
+│   │   │       ├── SaleItemTable.tsx
+│   │   │       ├── SaleTable.tsx
+│   │   │       ├── SepaRemittanceTable.tsx
+│   │   │       ├── SupplierAddressTable.tsx
+│   │   │       ├── SupplierContactTable.tsx
+│   │   │       ├── SupplierTable.tsx
+│   │   │       ├── UserTable.tsx
+│   │   │       ├── WarehouseLocationTable.tsx
+│   │   │       └── WarehouseTable.tsx
+│   │   ├── form
+│   │   │   ├── BaseSelect.tsx
+│   │   │   ├── GenericCheckbox.tsx
+│   │   │   ├── GenericEnum.tsx
+│   │   │   ├── GenericFileUpload.tsx
+│   │   │   ├── GenericInput.tsx
+│   │   │   └── GenericSelect.tsx
+│   │   └── layout
+│   │       ├── AppLayout.tsx
+│   │       └── Sidebar.tsx
+│   ├── context
+│   │   └── AuthContext.tsx
+│   ├── i18n
+│   │   ├── en.ts
+│   │   ├── es.ts
+│   │   └── fr.ts
+│   ├── i18n.ts
+│   ├── index.css
+│   ├── main.tsx
+│   ├── pages
+│   │   ├── AccountBudgetPage.tsx
+│   │   ├── AccountingAccountPage.tsx
+│   │   ├── AccountingEntryLinePage.tsx
+│   │   ├── AccountingEntryPage.tsx
+│   │   ├── ApiKeyPage.tsx
+│   │   ├── AuditLogPage.tsx
+│   │   ├── auth
+│   │   │   ├── ForgotPasswordPage.tsx
+│   │   │   ├── LoginPage.tsx
+│   │   │   ├── RegisterPage.tsx
+│   │   │   └── ResetPasswordPage.tsx
+│   │   ├── CustomerAddressPage.tsx
+│   │   ├── CustomerContactPage.tsx
+│   │   ├── CustomerPage.tsx
+│   │   ├── EmployeePage.tsx
+│   │   ├── FiscalYearPage.tsx
+│   │   ├── index.ts
+│   │   ├── InvoicePage.tsx
+│   │   ├── MaterialCategoryPage.tsx
+│   │   ├── MaterialLocationPage.tsx
+│   │   ├── MaterialPage.tsx
+│   │   ├── MaterialSupplierPage.tsx
+│   │   ├── PasswordHistoryPage.tsx
+│   │   ├── PaymentPage.tsx
+│   │   ├── PermissionPage.tsx
+│   │   ├── ProductAttributePage.tsx
+│   │   ├── ProductCategoryPage.tsx
+│   │   ├── ProductImagePage.tsx
+│   │   ├── ProductionInputPage.tsx
+│   │   ├── ProductionOutputPage.tsx
+│   │   ├── ProductionPage.tsx
+│   │   ├── ProductLocationPage.tsx
+│   │   ├── ProductPage.tsx
+│   │   ├── PurchaseItemPage.tsx
+│   │   ├── PurchasePage.tsx
+│   │   ├── QualityControlPage.tsx
+│   │   ├── QualityDefectPage.tsx
+│   │   ├── QuotationItemPage.tsx
+│   │   ├── QuotationPage.tsx
+│   │   ├── ReturnOrderItemPage.tsx
+│   │   ├── ReturnOrderPage.tsx
+│   │   ├── RolePage.tsx
+│   │   ├── SaleItemPage.tsx
+│   │   ├── SalePage.tsx
+│   │   ├── SepaRemittancePage.tsx
+│   │   ├── SupplierAddressPage.tsx
+│   │   ├── SupplierContactPage.tsx
+│   │   ├── SupplierPage.tsx
+│   │   ├── UserPage.tsx
+│   │   ├── WarehouseLocationPage.tsx
+│   │   └── WarehousePage.tsx
+│   ├── services
+│   │   ├── accountBudget.service.ts
+│   │   ├── accountingAccount.service.ts
+│   │   ├── accountingEntryLine.service.ts
+│   │   ├── accountingEntry.service.ts
+│   │   ├── apiClient.ts
+│   │   ├── apiKey.service.ts
+│   │   ├── auditLog.service.ts
+│   │   ├── auth.service.ts
+│   │   ├── customerAddress.service.ts
+│   │   ├── customerContact.service.ts
+│   │   ├── customer.service.ts
+│   │   ├── employee.service.ts
+│   │   ├── fiscalYear.service.ts
+│   │   ├── invoice.service.ts
+│   │   ├── materialCategory.service.ts
+│   │   ├── materialLocation.service.ts
+│   │   ├── material.service.ts
+│   │   ├── materialSupplier.service.ts
+│   │   ├── passwordHistory.service.ts
+│   │   ├── payment.service.ts
+│   │   ├── permission.service.ts
+│   │   ├── productAttribute.service.ts
+│   │   ├── productCategory.service.ts
+│   │   ├── productImage.service.ts
+│   │   ├── productionInput.service.ts
+│   │   ├── productionOutput.service.ts
+│   │   ├── production.service.ts
+│   │   ├── productLocation.service.ts
+│   │   ├── product.service.ts
+│   │   ├── purchaseItem.service.ts
+│   │   ├── purchase.service.ts
+│   │   ├── qualityControl.service.ts
+│   │   ├── qualityDefect.service.ts
+│   │   ├── quotationItem.service.ts
+│   │   ├── quotation.service.ts
+│   │   ├── returnOrderItem.service.ts
+│   │   ├── returnOrder.service.ts
+│   │   ├── role.service.ts
+│   │   ├── saleItem.service.ts
+│   │   ├── sale.service.ts
+│   │   ├── sepaRemittance.service.ts
+│   │   ├── supplierAddress.service.ts
+│   │   ├── supplierContact.service.ts
+│   │   ├── supplier.service.ts
+│   │   ├── user.service.ts
+│   │   ├── warehouseLocation.service.ts
+│   │   └── warehouse.service.ts
+│   └── vite-env.d.ts
+├── tailwind.config.js
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
+15 directories, 217 files
